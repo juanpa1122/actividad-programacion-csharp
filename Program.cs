@@ -21,6 +21,11 @@ while (!salir)
     Console.WriteLine("8. Sum of Evens");
     Console.WriteLine("9. Fraction Difference");
     Console.WriteLine("10. String Length");
+    Console.WriteLine("11. Average of Four");
+    Console.WriteLine("12. Smallest of Five");
+    Console.WriteLine("13. Vowel Counter");
+    Console.WriteLine("14. Factorial Finder");
+    Console.WriteLine("15. InRange Validator");
     Console.WriteLine("0. Salir");
     Console.WriteLine();
 
@@ -69,6 +74,26 @@ while (!salir)
 
         case "10":
             new Exercise10StringLength().Ejecutar();
+            break;
+
+        case "11":
+            new Exercise11AverageOfFour().Ejecutar();
+            break;
+
+        case "12":
+            new Exercise12SmallestOfFive().Ejecutar();
+            break;
+
+        case "13":
+            new Exercise13VowelCounter().Ejecutar();
+            break;
+
+        case "14":
+            new Exercise14FactorialFinder().Ejecutar();
+            break;
+
+        case "15":
+            new Exercise15InRangeValidator().Ejecutar();
             break;
 
         case "0":
