@@ -1,6 +1,6 @@
 ﻿using ActividadProgramacionCSharp.Exercises;
 
-Exercise12SmallestOfFive ejercicio12 =
-    new Exercise12SmallestOfFive();
+Exercise15InRangeValidator ejercicio15 =
+    new Exercise15InRangeValidator();
 
-ejercicio12.Ejecutar();
+ejercicio15.Ejecutar();
