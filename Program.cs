@@ -1,5 +1,5 @@
 ﻿using ActividadProgramacionCSharp.Exercises;
 
-Exercise02DoubleOrTriple ejercicio2 = new Exercise02DoubleOrTriple();
+Exercise05MidweekDay ejercicio5 = new Exercise05MidweekDay();
 
-ejercicio2.Ejecutar();
+ejercicio5.Ejecutar();
