@@ -1,5 +1,6 @@
 ﻿using ActividadProgramacionCSharp.Exercises;
 
-Exercise08SumOfEvens ejercicio8 = new Exercise08SumOfEvens();
+Exercise10StringLength ejercicio10 =
+    new Exercise10StringLength();
 
-ejercicio8.Ejecutar();
+ejercicio10.Ejecutar();
