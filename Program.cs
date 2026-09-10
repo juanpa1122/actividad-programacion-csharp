@@ -1,2 +1,5 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+﻿using ActividadProgramacionCSharp.Exercises;
+
+Exercise02DoubleOrTriple ejercicio2 = new Exercise02DoubleOrTriple();
+
+ejercicio2.Ejecutar();
